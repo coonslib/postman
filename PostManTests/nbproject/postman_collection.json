@@ -1,0 +1,187 @@
+{
+	"variables": [],
+	"info": {
+		"name": "class demos",
+		"_postman_id": "2df7d3d3-e158-aa81-1179-89295f0b4d79",
+		"description": "JUNK",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://api.yelp.com/v3/businesses/search/phone?phone=+12533094226",
+			"request": {
+				"url": {
+					"raw": "https://api.yelp.com/v3/businesses/search/phone?phone=+12533094226",
+					"protocol": "https",
+					"host": [
+						"api",
+						"yelp",
+						"com"
+					],
+					"path": [
+						"v3",
+						"businesses",
+						"search",
+						"phone"
+					],
+					"query": [
+						{
+							"key": "phone",
+							"value": "+12533094226",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer nF-jREkzdL6wzz_lcsP4_-2igVi9cJ3mGaUPG3trZpFhbAIbidejW2ETQpUuKSxIKDyAu6m9svnXsZ1txc4yh4jm79UU74lQtiEJGTDHMvEVWLiCWWMqWIFCpKCpWXYx",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.yelp.com/v3/businesses/gateway-to-india-tacoma-2/reviews",
+			"request": {
+				"url": "https://api.yelp.com/v3/businesses/gateway-to-india-tacoma-2/reviews",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer nF-jREkzdL6wzz_lcsP4_-2igVi9cJ3mGaUPG3trZpFhbAIbidejW2ETQpUuKSxIKDyAu6m9svnXsZ1txc4yh4jm79UU74lQtiEJGTDHMvEVWLiCWWMqWIFCpKCpWXYx",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.yelp.com/v3/businesses/mcdonalds/reviews",
+			"request": {
+				"url": "https://api.yelp.com/v3/businesses/mcdonalds/reviews",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer nF-jREkzdL6wzz_lcsP4_-2igVi9cJ3mGaUPG3trZpFhbAIbidejW2ETQpUuKSxIKDyAu6m9svnXsZ1txc4yh4jm79UU74lQtiEJGTDHMvEVWLiCWWMqWIFCpKCpWXYx",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.yelp.com/v3/businesses/search?term=delis&latitude=37.786882&longitude=-122.399972",
+			"request": {
+				"url": {
+					"raw": "https://api.yelp.com/v3/businesses/search?term=delis&latitude=37.786882&longitude=-122.399972",
+					"protocol": "https",
+					"host": [
+						"api",
+						"yelp",
+						"com"
+					],
+					"path": [
+						"v3",
+						"businesses",
+						"search"
+					],
+					"query": [
+						{
+							"key": "term",
+							"value": "delis",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "latitude",
+							"value": "37.786882",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "longitude",
+							"value": "-122.399972",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer nF-jREkzdL6wzz_lcsP4_-2igVi9cJ3mGaUPG3trZpFhbAIbidejW2ETQpUuKSxIKDyAu6m9svnXsZ1txc4yh4jm79UU74lQtiEJGTDHMvEVWLiCWWMqWIFCpKCpWXYx",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.yelp.com/v3/businesses/search?term=delis&latitude=47.608013&longitude=-122.335167",
+			"request": {
+				"url": {
+					"raw": "https://api.yelp.com/v3/businesses/search?term=delis&latitude=47.608013&longitude=-122.335167",
+					"protocol": "https",
+					"host": [
+						"api",
+						"yelp",
+						"com"
+					],
+					"path": [
+						"v3",
+						"businesses",
+						"search"
+					],
+					"query": [
+						{
+							"key": "term",
+							"value": "delis",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "latitude",
+							"value": "47.608013",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "longitude",
+							"value": "-122.335167",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer nF-jREkzdL6wzz_lcsP4_-2igVi9cJ3mGaUPG3trZpFhbAIbidejW2ETQpUuKSxIKDyAu6m9svnXsZ1txc4yh4jm79UU74lQtiEJGTDHMvEVWLiCWWMqWIFCpKCpWXYx",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
